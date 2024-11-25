@@ -13,7 +13,7 @@ public record DadosDetalhamentoPaciente(
     public DadosDetalhamentoPaciente(Paciente paciente) {
         this(paciente.getId(),
                 paciente.getNome(),
-                paciente.email,
+                paciente.getEmail(),
                 paciente.getCpf(),
                 paciente.getTelefone(),
                 paciente.getEndereco());
