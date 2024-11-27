@@ -8,3 +8,6 @@ spring:
     url: jdbc:mysql://${DB_HOST}/${DB_NAME}
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
+server:
+  error:
+    include-stacktrace: never
